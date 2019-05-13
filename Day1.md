@@ -10,3 +10,8 @@
     在一定的条件下，独立随机变量和的分布函数会收敛于正态分布
 ## 最大似然估计
 ![image](https://github.com/keke1u/LeeML/blob/master/MLE.jpg?raw=true)
+# 推导回归的Loss Function
+    此处指一元线性回归，为平方损失函数
+# 推导梯度下降的公式
+
+# 写出梯度下降(Gradient Descdent)的
