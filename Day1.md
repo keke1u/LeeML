@@ -6,15 +6,16 @@
     Step3: pick te best function
 ![image](https://github.com/keke1u/LeeML/blob/master/Types_of_ML.jpg?raw=true)
 # 学习中心极限定理，正态分布，最大似然估计
-## 中心极限定理
+- 中心极限定理
     在一定的条件下，独立随机变量和的分布函数会收敛于正态分布
-## 最大似然估计
+- 最大似然估计
 ![image](https://github.com/keke1u/LeeML/blob/master/MLE.jpg?raw=true)
 # 推导回归的Loss Function
     此处指一元线性回归，为平方损失函数
 # 推导梯度下降的公式(from 李航_统计学习方法)
 ![image](https://github.com/keke1u/LeeML/blob/master/Gradient_Descent.jpg?raw=true)
 # 写出梯度下降(Gradient Descdent)的代码
+
 
 # 学习L2-norm,L1-norm,L0-norm并推导regularization公式
     正则化是模型选择的典型方法，可以防止过拟合(模型过于复杂，使得训练误差小但测试误差大)。
