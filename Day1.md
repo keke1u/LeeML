@@ -19,7 +19,7 @@
 # 学习L2-norm,L1-norm,L0-norm并推导regularization公式
     正则化是模型选择的典型方法，可以防止过拟合(模型过于复杂，使得训练误差小但测试误差大)。
     是在经验风险上加一个正则化项(regularizer)或惩罚项(penalty term)
-
+![image](https://github.com/keke1u/LeeML/blob/master/Regularization.jpg?raw=true)
 
 
 # 说明为什么用L1-norm代替L0-norm
