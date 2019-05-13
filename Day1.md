@@ -1,7 +1,7 @@
 # 什么是Machine Learning
 
-可以看做是looking for a function from data
-Step1: define a set of function
-Step2: compute the goodness of function
-Step3: pick te best function
-!(https://github.com/keke1u/LeeML/blob/master/Types_of_ML.jpg?raw=true)
+    可以看做是looking for a function from data
+    Step1: define a set of function
+    Step2: compute the goodness of function
+    Step3: pick te best function
+![image](https://github.com/keke1u/LeeML/blob/master/Types_of_ML.jpg?raw=true)
