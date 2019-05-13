@@ -1,0 +1,6 @@
+# 什么是Machine Learning
+
+可以看做是looking for a function from data
+Step1: define a set of function
+Step2: compute the goodness of function
+Step3: pick te best function
