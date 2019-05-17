@@ -15,8 +15,29 @@
 # 推导梯度下降的公式(from 李航_统计学习方法)
 ![image](https://github.com/keke1u/LeeML/blob/master/Gradient_Descent.jpg?raw=true)
 # 写出梯度下降(Gradient Descdent)的代码
+```
+import numpy as np
 
+x = np.array([1,5,7,9,15,16]) # 6个样本
+y = np.array([2,11,13,19,31,30])
 
+m  = 5
+iter = 10
+lr = 0.01
+w = 1.8
+b = 0.1
+cost = []
+
+for t in range(iter):
+    yhat = x*w
+    cost1 = np.sum((y-yhat)**2) / (2.0*m)
+    cost.append(cost1)
+    dw = -np.dot(x.T,y-yhat)/m
+    db = -np.sum(yhat-y)/m
+    w = w - lr*dw
+    b = b - lr*db
+print(cost)
+```
 
 
 
