@@ -8,6 +8,7 @@
 ![image](https://github.com/keke1u/LeeML/blob/master/Bias_Variance2.jpg?raw=true)
 
    Bias大，Underfitting: 应该重新设计model
+   
    Variance大，Overfitting：more data 或 Regularization
 # 学习鞍点，复习全局最优和局部最优
 - 解决办法有哪些
