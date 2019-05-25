@@ -4,13 +4,14 @@
 ![image](https://github.com/keke1u/LeeML/blob/master/Naive-Bayes-Classifier3.jpg?raw=true)
 ![image](https://github.com/keke1u/LeeML/blob/master/Naive-Bayes-Classifier4.jpg?raw=true)
 # LR与Linear Regression之间的区别
-   都是广义的线性回归
+   1. 都是广义的线性回归
    
-   从回归的角度：LR是在线性回归后施加了一个非线性函数，从而达到二分类的目的
-   
+   从回归的角度：LR是在线性回归后施加了一个非线性函数，从而达到二分类的目的。
    即线性回归的值域是R，LR的值域被Sigmoid函数映射到了[0,1]，通过设置阈值进行分类器判断。
    
-   从概率模型的角度，在二分类的LDA中，判别边界函数可写为Logistic回归模型的形式（推导见后）
+   2. 从概率模型的角度，在二分类的LDA中，判别边界函数可写为Logistic回归模型的形式（推导见后）。
+   
+   3. 优化目标函数不同，Linear Regression 可用最小二乘或最大似然进行参数估计，而LR通过最大似然进行参数估计。
    
 # 二分类LDA的推导
 ![image](https://github.com/keke1u/LeeML/blob/master/LDA.png?raw=true)
